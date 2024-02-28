@@ -1,0 +1,54 @@
+.menu {
+    background: 
+#222;
+}
+
+.menu ul {
+    all: unset;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    background: 
+#222;
+}
+.menu ul li {
+    position: relative;
+}
+.menu ul li a {
+    display: block;
+    padding: 10px;
+}
+
+/* Style the submenus */
+.menu ul li ul {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+}
+
+.menu ul ul li {
+    width: max-content;
+    min-width: 100%;
+    max-width: 200px;
+}
+
+.menu ul a {
+    all: unset;
+    color: 
+#fff;
+    cursor: pointer;
+}
+.menu ul a:hover {
+    background: 
+rgba(0, 0, 0, 0.7);
+}
+
+.menu ul li:hover > ul {
+    display: flex; /* Show submenus on hover */
+}
+
+/* Style the third-level submenu */
+.menu ul ul ul {
+    top: 0;
+    left: 100%;
+}

@@ -1,0 +1,132 @@
+{
+  "jcr:primaryType":"sling:OrderedFolder",
+  "jcr:mixinTypes":["rep:AccessControllable"],
+  "examples" : {
+    "jcr:primaryType":"cq:Page",
+    "jcr:content": {
+      "jcr:primaryType":"cq:PageContent",
+      "jcr:title" : "Examples"
+    },
+    "en": {
+      "jcr:primaryType":"cq:Page",
+      "jcr:content": {
+        "jcr:primaryType":"cq:PageContent",
+        "jcr:title" : "English"
+      },
+      "page1" : {
+        "jcr:primaryType":"cq:Page",
+        "jcr:content": {
+          "jcr:primaryType":"cq:PageContent",
+          "jcr:title" : "Page 1"
+        },
+        "page11": {
+          "jcr:primaryType":"cq:Page",
+          "jcr:content": {
+            "jcr:primaryType":"cq:PageContent",
+            "jcr:title" : "Page 11"
+          },
+          "page111" : {
+            "jcr:primaryType":"cq:Page",
+            "jcr:content": {
+              "jcr:primaryType":"cq:PageContent",
+              "jcr:title" : "Page 111"
+            },
+            "page1111" : {
+              "jcr:primaryType":"cq:Page",
+              "jcr:content": {
+                "jcr:primaryType":"cq:PageContent",
+                "jcr:title" : "Page 1111"
+              }
+            }
+          },
+          "page112" : {
+            "jcr:primaryType":"cq:Page",
+            "jcr:content": {
+              "jcr:primaryType":"cq:PageContent",
+              "jcr:title" : "Page 112"
+            }
+          }
+        },
+        "page12": {
+          "jcr:primaryType":"cq:Page",
+          "jcr:content": {
+            "jcr:primaryType":"cq:PageContent",
+            "jcr:title" : "Page 12"
+          },
+          "page121" : {
+            "jcr:primaryType":"cq:Page",
+            "jcr:content": {
+              "jcr:primaryType":"cq:PageContent",
+              "jcr:title" : "Page 121"
+            }
+          },
+          "page122" : {
+            "jcr:primaryType":"cq:Page",
+            "jcr:content": {
+              "jcr:primaryType":"cq:PageContent",
+              "jcr:title" : "Page 122"
+            }
+          }
+        }
+      },
+      "page2" : {
+        "jcr:primaryType":"cq:Page",
+        "jcr:content": {
+          "jcr:primaryType":"cq:PageContent",
+          "jcr:title" : "Page 2",
+          "hideAllPagesInSubNavigation" : "true"
+        },
+        "page21": {
+          "jcr:primaryType":"cq:Page",
+          "jcr:content": {
+            "jcr:primaryType":"cq:PageContent",
+            "jcr:title" : "Page 21"
+          },
+          "page211" : {
+            "jcr:primaryType":"cq:Page",
+            "jcr:content": {
+              "jcr:primaryType":"cq:PageContent",
+              "jcr:title" : "Page 211"
+            }
+          },
+          "page212" : {
+            "jcr:primaryType":"cq:Page",
+            "jcr:content": {
+              "jcr:primaryType":"cq:PageContent",
+              "jcr:title" : "Page 212"
+            }
+          }
+        },
+        "page22": {
+          "jcr:primaryType":"cq:Page",
+          "jcr:content": {
+            "jcr:primaryType":"cq:PageContent",
+            "jcr:title" : "Page 22"
+          }
+        }
+      },
+      "page3": {
+        "jcr:primaryType":"cq:Page",
+        "jcr:content": {
+          "jcr:primaryType":"cq:PageContent",
+          "jcr:title" : "Page 3",
+          "hideInNavigation": "true"
+        },
+        "page31": {
+          "jcr:primaryType":"cq:Page",
+          "jcr:content": {
+            "jcr:primaryType":"cq:PageContent",
+            "jcr:title" : "Page 31"
+          }
+        },
+        "page32": {
+          "jcr:primaryType":"cq:Page",
+          "jcr:content": {
+            "jcr:primaryType":"cq:PageContent",
+            "jcr:title" : "Page 32"
+          }
+        }
+      }
+    }
+  }
+}

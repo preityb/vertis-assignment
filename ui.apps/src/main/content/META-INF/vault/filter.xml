@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/vertis/clientlibs"/>
+    <filter root="/apps/vertis/components"/>
+    <filter root="/apps/vertis/i18n"/>
+
+</workspaceFilter>

@@ -1,0 +1,17 @@
+<sly data-sly-use.model="com.vertis.core.models.NavBarModel"/>
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"/>
+<nav class="menu">
+	<ul data-sly-list.navItem="${model.navItems}">
+  		<li><a href="${navItem.link}">${navItem.title}</a>
+        <ul data-sly-list.subMenuItem="${navItem.subMenu}">
+        	<li><a href="${subMenuItem.link}">${subMenuItem.title}</a>
+            	<ul data-sly-list.subSubMenuItem="${subMenuItem.subMenu}">
+        			<li><a href="${subSubMenuItem.link}">${subSubMenuItem.title}</a></li>
+        		</ul>
+            </li>
+        </ul>
+        </li>
+        
+	</ul>
+        </nav>
+<sly data-sly-call="${clientlib.css @ categories='menu-bar'}" />
